@@ -1,0 +1,186 @@
+@charset "ISO-8859-1";
+body{
+    margin: 10px;
+    background: #c0c0c0;
+
+}
+.body-side{
+    margin-top: 55px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 94%;
+    height: 510px;
+    border-radius: 15px;
+    background: #8d8c8c;
+}
+.header-side{
+    margin-left: 142px;
+    margin-top: 40px;
+    padding: 30px;
+    width: 70%;
+    height: 50px;
+    background: #0c0c2a;
+    border-radius: 25px;
+}
+.title{
+    margin-left: 360px;
+    /*font-family: "Cambria Math";*/
+    color: #01042a;
+    background: silver;
+    width: 43%;
+    text-align: center;
+    border-radius: 8px;
+}
+.header-side p{
+    /*font-family: "Cambria Math";*/
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.link-to{
+    margin-left: 480px;
+    margin-top: 50px;
+}
+.link-to .link-one{
+     width: 30%;
+    height: 35px;
+    background: #414148;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    text-after-overflow: 10px;
+}
+.link-to .link-two{
+    width: 30%;
+    height: 35px;
+    background: #0e0e28;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    text-after-overflow: 10px;
+}
+.link-to .link-three{
+    width: 30%;
+    height: 35px;
+    background: #414148;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 15px;
+    text-after-overflow: 10px;
+}
+.link-to a{
+    text-decoration: none;
+    color: aliceblue;
+    margin-top: 30px;
+}
+/*///////////////////////////convert_number/////////////////////////////*/
+
+.container-c{
+    margin-left: 260px;
+}
+.container-c input{
+    padding: 8px;
+}
+.container-c h1,h2{
+    font-size: 32px;
+}
+.ui-button button{
+    width: 8%;
+    height: 50px;
+}
+.back-home {
+    margin-left: 1100px;
+    margin-top: 70px;
+    padding: 10px;
+    font-stretch: condensed;
+
+}
+
+
+
+/*--------------------login------------------------*/
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(54, 52, 52);
+    padding: 40px;
+    width: 30%;
+    margin-left: 400px;
+}
+.login-container input{
+    padding: 15px 15px 15px 40px;
+    font-size: 16px;
+}
+.login-container i{
+    position: relative;
+    left: 370px;
+    top: 35%;
+    transform: translateY(-240%);
+    color: #0c0c0c;
+
+
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+.login-form h2{
+    color: #217dbb;
+    margin-left: 100px;
+}
+.login-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.login-container button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #217dbb;
+}
+
+/* Checkbox styling */
+login-container label input[type="checkbox"] {
+    margin-right: 5px;
+    color: white;
+}
+/*-----------------------Register-------------------------*/
+
+.container-d{
+    background: silver;
+    margin-left: 400px;
+    width: 25%;
+    padding: 30px;
+    height: 88%;
+    border-radius: 10px;
+}
+.container-d input{
+    border-radius: 6px;
+    height: 20px;
+}
+.container-d button{
+    border-radius: 2px;
+    border: #01042a;
+    background: #217dbb;
+    margin-left: 20px;
+    width: 80%;
+    height: 20px;
+
+
+}
